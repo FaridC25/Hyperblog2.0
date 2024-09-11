@@ -1,8 +1,12 @@
 
 header{
-    background-color: green;
+    background-color: crimson;
     width: 100%;
-    height: 20%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 ul{
@@ -10,6 +14,8 @@ ul{
     display: flex;
     flex-direction: row;
     width: 100px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 li{
@@ -43,4 +49,18 @@ div img{
 
 p{
     margin-top: 25px;
+   margin-left: 15px;
+}
+
+a{
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
